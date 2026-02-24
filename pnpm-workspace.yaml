@@ -5,7 +5,7 @@ packages:
 
 catalog:
   '@commitlint/types': ^20.4.0
-  '@mjwheatley/nx-vitest-config': 0.4.0
+  '@mjwheatley/nx-vitest-config': 0.4.1
   '@nx/vite': 22.5.1
   '@vitest/coverage-v8': ^4.0.18
   commitlint: ^20.4.2

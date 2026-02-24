@@ -10,8 +10,8 @@ catalogs:
       specifier: ^20.4.0
       version: 20.4.0
     '@mjwheatley/nx-vitest-config':
-      specifier: 0.4.0
-      version: 0.4.0
+      specifier: 0.4.1
+      version: 0.4.1
     '@nx/vite':
       specifier: 22.5.1
       version: 22.5.1
@@ -79,7 +79,7 @@ importers:
         version: 0.4.0(nx@22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))
       '@mjwheatley/nx-vitest-config':
         specifier: 'catalog:'
-        version: 0.4.0(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)
+        version: 0.4.1(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)
       '@nx/eslint':
         specifier: 22.5.1
         version: 22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(@zkochan/js-yaml@0.0.7)(eslint@9.39.3(jiti@2.6.1))(nx@22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(verdaccio@6.2.7(typanion@3.14.0))
@@ -194,7 +194,7 @@ importers:
     devDependencies:
       '@mjwheatley/nx-vitest-config':
         specifier: 'catalog:'
-        version: 0.4.0(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.2(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)
+        version: 0.4.1(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.2(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)
       '@nx/vite':
         specifier: 'catalog:'
         version: 22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.2(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18)
@@ -1354,8 +1354,8 @@ packages:
     peerDependencies:
       nx: '>=19'
 
-  '@mjwheatley/nx-vitest-config@0.4.0':
-    resolution: {integrity: sha512-RvOIu6NenCk0l0o3LEURHWvT5dEgKD5xuHE53EBRVcmvxCTH1Mogr7bw6aQJIKBZCuAZb95c9kEkEKdUw5IiZQ==, tarball: https://npm.pkg.github.com/download/@mjwheatley/nx-vitest-config/0.4.0/dab9b2edb24ddd16701e7ae65b7e133d8e2b2ea6}
+  '@mjwheatley/nx-vitest-config@0.4.1':
+    resolution: {integrity: sha512-3230gKgE2fq7/XpCbRgrwc0ixaDQQyzx3Zg+UwMivz/KSb2oayX4wru4UvgMSwIrwHix1Qr6bUeI4FPho3GjyA==, tarball: https://npm.pkg.github.com/download/@mjwheatley/nx-vitest-config/0.4.1/96228f22b03efcf723b9444d5beb42260934b718}
     hasBin: true
     peerDependencies:
       '@nx/vite': 22.5.1
@@ -6633,7 +6633,7 @@ snapshots:
     dependencies:
       nx: 22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))
 
-  '@mjwheatley/nx-vitest-config@0.4.0(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)':
+  '@mjwheatley/nx-vitest-config@0.4.1(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)':
     dependencies:
       '@nx/vite': 22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.1(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18)
       '@vitest/coverage-v8': 4.0.18(vitest@4.0.18)
@@ -6641,7 +6641,7 @@ snapshots:
       vitest-sonar-reporter: 3.0.0(vitest@4.0.18)
       xml2js: 0.6.2
 
-  '@mjwheatley/nx-vitest-config@0.4.0(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.2(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)':
+  '@mjwheatley/nx-vitest-config@0.4.1(@nx/vite@22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.2(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18))(@vitest/coverage-v8@4.0.18(vitest@4.0.18))(vitest-sonar-reporter@3.0.0(vitest@4.0.18))(vitest@4.0.18)':
     dependencies:
       '@nx/vite': 22.5.1(@babel/traverse@7.29.0)(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19))(nx@22.5.2(@swc-node/register@1.11.1(@swc/core@1.15.13(@swc/helpers@0.5.19))(@swc/types@0.1.25)(typescript@5.9.3))(@swc/core@1.15.13(@swc/helpers@0.5.19)))(typescript@5.9.3)(verdaccio@6.2.7(typanion@3.14.0))(vite@7.3.1(@types/node@25.3.0)(jiti@2.6.1)(yaml@2.8.2))(vitest@4.0.18)
       '@vitest/coverage-v8': 4.0.18(vitest@4.0.18)
