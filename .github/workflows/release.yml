@@ -35,7 +35,6 @@ jobs:
         uses: mjwheatley/mjwheatley-packages/.github/actions/setup@main
         with:
           node-auth-token: ${{ secrets.GITHUB_TOKEN }}
-          two-phase-install: 'true'
 
       - name: Quality Checks
         uses: mjwheatley/mjwheatley-packages/.github/actions/checks@main

@@ -32,7 +32,6 @@ jobs:
           node-auth-token: ${{ secrets.GITHUB_TOKEN }}
           set-shas: 'true'
           main-branch-name: ${{ github.base_ref }}
-          two-phase-install: 'true'
 
       - name: Quality Checks
         uses: mjwheatley/mjwheatley-packages/.github/actions/checks@main
