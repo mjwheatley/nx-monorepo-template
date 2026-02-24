@@ -75,7 +75,7 @@
     }
   ],
   "release": {
-    "projects": ["packages/*"],
+    "projects": ["{apps,libs,packages}/*"],
     "releaseTagPattern": "{projectName}/v{version}",
     "projectsRelationship": "independent",
     "conventionalCommits": {

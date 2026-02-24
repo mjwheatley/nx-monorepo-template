@@ -16,7 +16,8 @@
     "test": "vitest --run",
     "test:all": "nx run-many -t test --nxBail --parallel=4 --silent=passed-only --no-tui",
     "test:coverage:combine": "pnpm exec combine-coverage-reports",
-    "check:circular": "madge --circular --extensions ts,js,tsx ."
+    "check:circular": "madge --circular --extensions ts,js,tsx .",
+    "release:dry-run": "nx-release --dry-run=true"
   },
   "dependencies": {
     "@mjwheatley/prettier-config": "0.4.0",
@@ -30,7 +31,7 @@
     "@mjwheatley/cspell-dictionary": "0.4.0",
     "@mjwheatley/eslint-config": "0.2.0",
     "@mjwheatley/nx-release-cli": "0.4.0",
-    "@mjwheatley/nx-vitest-config": "0.4.0",
+    "@mjwheatley/nx-vitest-config": "catalog:",
     "@nx/eslint": "22.5.1",
     "@nx/eslint-plugin": "^22.5.1",
     "@nx/js": "22.5.1",
