@@ -7,6 +7,8 @@
   "targets": {
     "clean": {},
     "test": {},
-    "nx-release-publish": {}
+    "nx-release-publish": {
+      "executor": "nx:noop"
+    }
   }
 }
