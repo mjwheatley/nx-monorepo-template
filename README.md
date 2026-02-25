@@ -28,3 +28,7 @@ corepack enable
 :warning: If you get `command not found` when trying to run `corepack`, you probably didn't use `fnm`/`nvm` to install Node. The preferred fix is to use one of those tools to manage your installed Node versions. If you don't want to use them, you will need to install [`corepack`](https://github.com/nodejs/corepack) manually.
 
 - `npm install -g corepack`
+
+## Coding Conventions
+
+Please review the [CONVENTIONS.md](./CONVENTIONS.md) file for coding style and best practices. All contributors (human and AI-assisted) must follow these conventions for consistency and code quality.
