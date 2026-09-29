@@ -1,5 +1,5 @@
 {
-  "name": "@nx-monorepo-template/types",
+  "name": "@workspace/types",
   "version": "0.0.0",
   "private": true,
   "license": "UNLICENSED",
